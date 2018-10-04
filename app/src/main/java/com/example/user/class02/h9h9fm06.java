@@ -43,9 +43,9 @@ public class h9h9fm06 extends AppCompatActivity {
                     fm06ID.setText(fm06CH[playerset]);
                     int comset = (int) (Math.random()*3);
                     comID.setText(fm06CH[comset]);
-                    if (((playerset==2)&&(comset==1))||
-                            ((playerset==1)&&(comset==0))||
-                            ((playerset==0)&&(comset==2)))
+                    if (((playerset==2)&&(comset==0))||
+                            ((playerset==1)&&(comset==2))||
+                            ((playerset==0)&&(comset==1)))
                     {
                         WinID.setText("電腦");
                         please.setText("你死掉了");
